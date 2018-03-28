@@ -48,9 +48,10 @@
 
                                 <!-- Site IA Pages -->
                                 <modulehook>
-                                    <name>wcm-root-folder</name>                                    
+                                    <name>wcm-root-folder</name>
+                                    <showDivider>true</showDivider>
                                     <params>
-                                        <label>Pages</label>
+                                        <label>AR Experiences</label>
                                         <path>/site/website</path>
                                         <showRootItem>true</showRootItem>
                                         <onClick>preview</onClick>
@@ -59,9 +60,10 @@
 
                                 <!-- Components -->
                                 <modulehook>
-                                    <name>wcm-root-folder</name>                                    
+                                    <name>wcm-root-folder</name>
+                                    <showDivider>true</showDivider>
                                     <params>
-                                        <label>Components</label>
+                                        <label>Models</label>
                                         <path>/site/components</path>
                                         <showRootItem>true</showRootItem>
                                     </params>
@@ -69,7 +71,8 @@
 
                                 <!-- Static Assets -->
                                 <modulehook>
-                                    <name>wcm-assets-folder</name>                                    
+                                    <name>wcm-assets-folder</name>
+                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Static Assets</label>
                                         <path>/static-assets</path>
@@ -80,7 +83,8 @@
 
                                 <!-- Templates -->
                                 <modulehook>
-                                    <name>wcm-assets-folder</name>                                    
+                                    <name>wcm-assets-folder</name>
+                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Templates</label>
                                         <path>/templates</path>
@@ -91,7 +95,8 @@
 
                                 <!-- Scripts -->
                                 <modulehook>
-                                    <name>wcm-assets-folder</name>                                    
+                                    <name>wcm-assets-folder</name>
+                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Scripts</label>
                                         <path>/scripts</path>
@@ -102,7 +107,8 @@
 
                                 <!-- Site Config -->
                                 <modulehook>
-                                    <name>site-config</name>                                    
+                                    <name>site-config</name>
+                                    <showDivider>true</showDivider>
                                     <params>
                                         <roles>
                                             <role>admin</role>
