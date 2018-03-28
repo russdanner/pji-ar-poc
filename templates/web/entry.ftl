@@ -1,20 +1,14 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
-
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-      <meta charset="utf-8">
-      <title>${model.title}</title>
-	</head>
-	<body>
-    	<div <@studio.iceAttr iceGroup="title"/>>
-			<h1>${model.title}</h1>
-        </div>
-      
-    	<div <@studio.iceAttr iceGroup="main"/>>
-            ${model.body}
-        </div>
-
-		<@studio.toolSupport/>	
-	</body>
+<html>
+    <head>
+        <title>Test Kitchen: AR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link type="text/css" rel="css/main.css"/>
+        <script async src="/static-assets/app/js/lib/artoolkit.min.js"></script>
+        <script async src="/static-assets/app/js/lib/three.min.js"></script>
+        <script async src="/static-assets/app/js/lib/artoolkit.three.js"></script>
+    </head>
+    <body>
+        <script async src="/static-assets/app/js/main.js"></script>
+    </body>
 </html>
