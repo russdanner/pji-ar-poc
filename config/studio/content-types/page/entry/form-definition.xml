@@ -247,48 +247,48 @@
 					</properties>
 					<fields>
 				<field>
-					<type>node-selector</type>
-					<id>pattern</id>
+					<type>image-picker</type>
+					<id>patternImage</id>
 					<iceId></iceId>
-					<title>pattern</title>
+					<title>Pattern Image</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>minSize</name>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
 							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxSize</name>
+							<name>thumbnailHeight</name>
 							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>itemManager</name>
-							<value>uploadpattern,browseforPattern</value>
-							<type>datasource:item</type>
+							<name>imageManager</name>
+							<value>patterns</value>
+							<type>datasource:image</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
-						<property>
-							<name>disableFlattening</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>useSingleValueFilename</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>allowDuplicates</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
@@ -328,32 +328,6 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>file-desktop-upload</type>
-					<id>uploadpattern</id>
-					<title>Upload pattern</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/patterns</value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>file-browse-repo</type>
-					<id>browseforPattern</id>
-					<title>Browse for Pattern</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/patterns</value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>video-browse-repo</type>
 					<id>browseforVideo</id>
 					<title>Browse for Video</title>
@@ -375,6 +349,19 @@
 						<property>
 							<name>repoPath</name>
 							<value>/static-assets/assets/splash</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>patterns</id>
+					<title>Patterns</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/data</value>
 								<type>undefined</type>
 						</property>
 					</properties>
