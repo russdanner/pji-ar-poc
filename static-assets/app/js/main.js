@@ -66,7 +66,7 @@
 
 				var group = new THREE.Group
                 
-                var geometry = new THREE.PlaneGeometry(2, 2, 1);
+                var geometry = new THREE.PlaneGeometry(4, 2, 1);
                 if(adjustPortrait==true) {
                 	geometry = new THREE.PlaneGeometry(2.2, 1.5, 1);
 				}
