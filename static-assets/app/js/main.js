@@ -111,7 +111,7 @@
                 	// dont do anything when user taps scene
                 }, false);
 
-                arController.loadNFTMarker('/static-assets/data/nft/great-lakes', function (id) {
+                arController.loadNFTMarker('/static-assets/data/nft/great-lakes/great-lakes', function (id) {
                     var marker = arController.createThreeNFTMarker(id);
                     myMarker = marker;
                     marker.add(myGroup);
