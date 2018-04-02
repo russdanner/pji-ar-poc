@@ -18,7 +18,7 @@
 
 	  <div style="display:none;" >
           <video id="video0" autoplay muted  playsinline controls style="width:1920px; height:1080px;""">
-              <source src="${contentModel.markers.item[0].key" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+              <source src="${contentModel.markers.item[0].video" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
           </video> 
       </div>
         
