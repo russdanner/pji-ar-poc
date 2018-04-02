@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<display-template>/templates/web/entry.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7607</objectGroupId>
+	<objectId>760734d9-451c-d442-43fd-f27bcc2a4cab</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>standard-box</folder-name>
+	<disabled>false</disabled>
+	<debugMarkers_b>false</debugMarkers_b>
+	<internal-name>Papa John's Standard Box</internal-name>
+	<splashText>Tap to get started</splashText>
+	<splashLogo>/static-assets/assets/splash/logo-large.png</splashLogo>
+	<markers>	<item>	<patternImage>/static-assets/data/nft/pji-standard-box.png</patternImage>
+	<video>/static-assets/video/better-ingredients-better-pizza.mp4</video>
+	</item></markers>
+	<createdDate>2018-04-02T22:55:25.764Z</createdDate>
+	<createdDate_dt>2018-04-02T22:55:25.764Z</createdDate_dt>
+	<lastModifiedDate>2018-04-02T22:55:25.764Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-02T22:55:25.764Z</lastModifiedDate_dt>
+</page>
