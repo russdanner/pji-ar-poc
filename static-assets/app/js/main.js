@@ -93,7 +93,7 @@
                 myVideo.videoEl.currentTime = 0;
 
                 group.position.z = 10;
-                group.position.x = 80;
+                group.position.x = 100;
                 group.position.y = 80;
                 group.scale.set(80,80,80);
 
