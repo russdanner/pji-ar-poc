@@ -9,6 +9,11 @@
         <script async src="/static-assets/app/js/lib/crafterar/artoolkit.three.js"></script>
     </head>
     <body>
+      <script>
+      	var crafterAR = {
+        	markers: [{pattern:"${contentModel.markers.item[0].patternImage}"}]
+        }
+      </script>
       <script async src="/static-assets/app/js/main.js"></script>
       
       <div class="startVideo" id="startVideo" >
