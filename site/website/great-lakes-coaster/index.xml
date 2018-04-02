@@ -7,15 +7,15 @@
 	<file-name>index.xml</file-name>
 	<folder-name>great-lakes-coaster</folder-name>
 	<internal-name>Great Lakes Coster</internal-name>
-	<splashText>Tap to get started</splashText>
+	<splashText>Tap to start</splashText>
 	<disabled>false</disabled>
 	<debugMarkers_b>false</debugMarkers_b>
-	<splashLogo>/static-assets/assets/splash/logo-large.png</splashLogo>
+	<splashLogo>/static-assets/assets/splash/jimis-thing-logo-rev2.jpg</splashLogo>
 	<markers>	<item>	<patternImage>/static-assets/data/nft/great-lakes/great-lakes.jpg</patternImage>
 	<video>/static-assets/video/sample_720x480_1mb.mp4</video>
 	</item></markers>
 	<createdDate>2018-04-02T22:58:33.631Z</createdDate>
 	<createdDate_dt>2018-04-02T22:58:33.631Z</createdDate_dt>
-	<lastModifiedDate>2018-04-02T22:58:33.631Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-02T22:58:33.631Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-02T23:03:41.190Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-02T23:03:41.190Z</lastModifiedDate_dt>
 </page>
