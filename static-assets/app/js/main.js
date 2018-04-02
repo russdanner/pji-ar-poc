@@ -1,60 +1,153 @@
+
 (function() {
+
+	var myVideo = {outOfScope:0}
+    var myMarker
+    var myGroup
+    var myRenderer 
+
+  function onResize(){
+    if(myRenderer) {
+        var w = window.innerWidth-10;
+        var h = window.innerHeight-10;
+        myRenderer.setSize(w, h);
+    }
+  }
+  
+    document.getElementById("startVideo").addEventListener('click', function (event) {
+    	//for(var i=0; i<videos.length; i++) {
+      
+      var video = document.getElementById("video0")// videos[i].videoEl;
+      video.muted = false;
+      video.currentTime = 0;
+      video.muted = true;
+      //video.addEventListener('ended',myHandler,false);
+    //}
+
+    this.style.display = "none";
+  });
+
+  window.addEventListener('resize', function(){
+    onResize()
+  })
+  
     window.ARThreeOnLoad = function () {
-        ARController.getUserMediaThreeScene({
+
+		ARController.getUserMediaThreeScene({
             maxARVideoSize: 320,
             cameraParam: '/static-assets/data/camera_para.dat',
             onSuccess: function (arScene, arController) {
                 var renderer = new THREE.WebGLRenderer({
                     antialias: true
                 });
-                if (arController.orientation === 'portrait') {
-                    var w = (window.innerWidth / arController.videoHeight) * arController.videoWidth;
-                    var h = window.innerWidth;
-                    renderer.setSize(w, h);
-                    renderer.domElement.style.paddingBottom = (w - h) + 'px';
-                } else {
-                    if (/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
-                        renderer.setSize(window.innerWidth, (window.innerWidth / arController.videoWidth) * arController.videoHeight);
-                    } else {
-                        renderer.setSize(arController.videoWidth, arController.videoHeight);
-                        document.body.className += ' desktop';
+
+				var adjustPortrait = false;
+				//if(/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
+				if(/iPhone/i.test(navigator.userAgent)) {
+                	if(arController.orientation=="portrait") {
+                  		adjustPortrait = true;
                     }
-                }
-                document.body.className = arController.orientation;
+				}
+				
+                myRenderer = renderer
+                var w = window.innerWidth-10;
+                var h = window.innerHeight-10;
+                renderer.setSize(w, h);
                 document.body.appendChild(renderer.domElement);
 
-                var rotationV = 0;
-                var rotationTarget = 0;
+                /* ============= */
+                // Video
+                /* ============= */
+                 myVideo.videoEl = document.getElementById("video0")
+                 myVideo.videoEl.muted = true
+                 myVideo.videoEl.playsInline = true
+                 myVideo.videoEl.autoplay = true
+                 myVideo.videoEl.play()
 
-                var object = new THREE.Mesh(
-                    new THREE.SphereGeometry(0.5, 8, 8),
-                    new THREE.MeshNormalMaterial()
-                );
-                object.material.shading = THREE.FlatShading;
-                object.position.z = 40;
-                object.position.x = 80;
-                object.position.y = 80;
-                object.scale.set(80,80,80);
+				var group = new THREE.Group
+                
+                var geometry = new THREE.PlaneGeometry(1.5, 1.5, 1);
+                if(adjustPortrait==true) {
+                	geometry = new THREE.PlaneGeometry(2.2, 1.5, 1);
+				}
+                
+                var image = document.createElement( 'canvas' );
+                
+               	var imageW = 640
+                var imageH = 360
+                
+                image.width = imageW;
+                image.height = imageH;
+  
+                myVideo.imageContext = image.getContext( '2d' );
+                myVideo.imageContext.fillStyle = '#000000';
+                myVideo.imageContext.fillRect( 0, 0, imageW, imageH );
+  
+                myVideo.texture = new THREE.Texture( image );
+                var material = new THREE.MeshBasicMaterial( { map: myVideo.texture, side:THREE.BothSide });  
+                
+                var mesh = new THREE.Mesh( geometry, material );
+                group.add( mesh ); 
+                myVideo.group = group
+                myGroup = group
+                myVideo.videoEl.currentTime = 0;
 
+                group.position.z = 10;
+                group.position.x = 80;
+                group.position.y = 80;
+                group.scale.set(80,80,80);
+
+                if(adjustPortrait==true) {
+                	group.position.x = 120;
+                    group.position.y = 100;
+                    group.scale.set(100,100,100);
+				}
+                
+                /* ============= */
+                // Complete Scene and Marker setup
+                /* ============= */                
                 renderer.domElement.addEventListener('click', function (ev) {
                     ev.preventDefault();
-                    rotationTarget += 1;
+                	// dont do anything when user taps scene
                 }, false);
 
                 arController.loadNFTMarker('/static-assets/data/nft/box', function (id) {
                     var marker = arController.createThreeNFTMarker(id);
-                    marker.add(object);
+                    myMarker = marker;
+                    marker.add(myGroup);
                     arScene.scene.add(marker);
                 });
 
                 function tick() {
                     arScene.process();
 
-                    rotationV += (rotationTarget - object.rotation.z) * 0.05;
-                    object.rotation.z += rotationV;
-                    rotationV *= 0.8;
+					if(myMarker) {
 
-                    arScene.renderOn(renderer);
+					if(myMarker.visible==true) {
+                        myGroup.visible = true
+                        myVideo.videoEl.muted = false
+                        myVideo.videoEl.play()
+
+                        if(myVideo.outOfScope > 30) {
+                            myVideo.videoEl.currentTime = 0;
+                        }
+
+                         myVideo.outOfScope=0;
+
+							if(myVideo.videoEl.readyState === myVideo.videoEl.HAVE_ENOUGH_DATA ) {
+                              
+                              myVideo.imageContext.drawImage( myVideo.videoEl, 0, 0 );
+                              myVideo.texture.needsUpdate = true;
+							}
+                      }
+                      else {
+                            myGroup.visible = false
+                            myVideo.videoEl.muted =true
+                            myVideo.outOfScope+=1
+                      }
+                    }
+
+					arScene.renderOn(renderer);
                     requestAnimationFrame(tick);
                 };
 
