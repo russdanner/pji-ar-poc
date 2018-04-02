@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<display-template>/templates/web/entry.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>522c</objectGroupId>
+	<objectId>522c77a6-f2b8-6463-dac3-47e9cf7dc2c2</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>great-lakes-coaster</folder-name>
+	<internal-name>Great Lakes Coster</internal-name>
+	<splashText>Tap to get started</splashText>
+	<disabled>false</disabled>
+	<debugMarkers_b>false</debugMarkers_b>
+	<splashLogo>/static-assets/assets/splash/logo-large.png</splashLogo>
+	<markers>	<item>	<patternImage>/static-assets/data/nft/great-lakes/great-lakes.jpg</patternImage>
+	<video>/static-assets/video/sample_720x480_1mb.mp4</video>
+	</item></markers>
+	<createdDate>2018-04-02T22:58:33.631Z</createdDate>
+	<createdDate_dt>2018-04-02T22:58:33.631Z</createdDate_dt>
+	<lastModifiedDate>2018-04-02T22:58:33.631Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-02T22:58:33.631Z</lastModifiedDate_dt>
+</page>
