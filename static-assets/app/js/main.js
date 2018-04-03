@@ -96,13 +96,13 @@
                 myVideo.videoEl.currentTime = 0;
 
                 group.position.z = 10;
-                group.position.x = 100;
-                group.position.y = 80;
+                group.position.x = crafterARMarker.xPosition;
+                group.position.y = crafterARMarker.yPosition;
                 group.scale.set(80,80,80);
 
                 if(adjustPortrait==true) {
-                	group.position.x = 120;
-                    group.position.y = 100;
+                	group.position.x = crafterARMarker.xPosition+40;
+                    group.position.y = crafterARMarker.xPosition+20;
                     group.scale.set(100,100,100);
 				}
                 
