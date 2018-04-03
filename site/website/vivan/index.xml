@@ -15,13 +15,13 @@
 	<xScale>2</xScale>
 	<yScale>2</yScale>
 	<xPosition>80</xPosition>
-	<yPosition>120</yPosition>
+	<yPosition>220</yPosition>
 	<videoWidth>640</videoWidth>
 	<videoHeight>360</videoHeight>
 	<video>/static-assets/video/sample_720x480_1mb.mp4</video>
 	</item></markers>
 	<createdDate>2018-04-03T13:18:28.946Z</createdDate>
 	<createdDate_dt>2018-04-03T13:18:28.946Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T13:21:50.990Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T13:21:50.990Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T13:22:22.011Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T13:22:22.011Z</lastModifiedDate_dt>
 </page>
