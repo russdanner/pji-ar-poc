@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<display-template>/templates/web/entry.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>35c5</objectGroupId>
+	<objectId>35c55c9b-a93c-fa18-4274-255f8c2bff0c</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>hive-and-honey-rooftop</folder-name>
+	<internal-name>Hive and honey Rooftop Elevator Doors</internal-name>
+	<splashText>Tap to start</splashText>
+	<disabled>false</disabled>
+	<debugMarkers_b>false</debugMarkers_b>
+	<splashLogo>/static-assets/assets/splash/marriott-irvine.png</splashLogo>
+	<markers>	<item>	<patternImage>/static-assets/data/nft/hive-and-honey/hive-and-honey.jpg</patternImage>
+	<xScale>2</xScale>
+	<yScale>2</yScale>
+	<xPosition>80</xPosition>
+	<yPosition>80</yPosition>
+	<videoWidth>640</videoWidth>
+	<videoHeight>360</videoHeight>
+	<video>/static-assets/video/irvine-rooftop.mp4</video>
+	</item></markers>
+	<createdDate>2018-04-03T02:42:57.623Z</createdDate>
+	<createdDate_dt>2018-04-03T02:42:57.623Z</createdDate_dt>
+	<lastModifiedDate>2018-04-03T02:42:57.623Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T02:42:57.623Z</lastModifiedDate_dt>
+</page>
