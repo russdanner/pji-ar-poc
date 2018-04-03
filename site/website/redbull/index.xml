@@ -12,16 +12,16 @@
 	<debugMarkers_b>false</debugMarkers_b>
 	<splashLogo>/static-assets/assets/splash/redbull.png</splashLogo>
 	<markers>	<item>	<patternImage>/static-assets/data/nft/redbull-can/redbull-can.jpg</patternImage>
-	<xScale>1</xScale>
-	<yScale>1</yScale>
-	<xPosition>10</xPosition>
-	<yPosition>10</yPosition>
+	<xScale>.1</xScale>
+	<yScale>.1</yScale>
+	<xPosition>0</xPosition>
+	<yPosition>0</yPosition>
 	<videoWidth>640</videoWidth>
 	<videoHeight>360</videoHeight>
 	<video>/static-assets/video/redbull.mp4</video>
 	</item></markers>
 	<createdDate>2018-04-03T16:55:42.526Z</createdDate>
 	<createdDate_dt>2018-04-03T16:55:42.526Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T18:18:44.557Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T18:18:44.557Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T18:19:15.017Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T18:19:15.017Z</lastModifiedDate_dt>
 </page>
