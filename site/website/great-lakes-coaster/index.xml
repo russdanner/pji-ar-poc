@@ -17,9 +17,11 @@
 	<yScale>2</yScale>
 	<videoWidth>640</videoWidth>
 	<videoHeight>360</videoHeight>
+	<xPosition>80</xPosition>
+	<yPosition>80</yPosition>
 	</item></markers>
 	<createdDate>2018-04-02T22:58:33.631Z</createdDate>
 	<createdDate_dt>2018-04-02T22:58:33.631Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T01:01:31.814Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T01:01:31.814Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T01:07:50.536Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T01:07:50.536Z</lastModifiedDate_dt>
 </page>
