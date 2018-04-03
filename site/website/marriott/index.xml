@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<display-template>/templates/web/entry.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>26c9</objectGroupId>
+	<objectId>26c9fbc2-bf79-2e49-3136-a8af9a7a97c8</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>marriott</folder-name>
+	<internal-name>Mr. Marriott Portait Irvine</internal-name>
+	<splashText>Tap to start</splashText>
+	<disabled>false</disabled>
+	<debugMarkers_b>false</debugMarkers_b>
+	<splashLogo>/static-assets/assets/splash/marriott-irvine.png</splashLogo>
+	<markers>	<item>	<patternImage>/static-assets/data/nft/mr-marriott-portrait/mr-marriott-portrait.jpg</patternImage>
+	<xScale>2</xScale>
+	<yScale>2</yScale>
+	<xPosition>80</xPosition>
+	<yPosition>80</yPosition>
+	<videoWidth>640</videoWidth>
+	<videoHeight>360</videoHeight>
+	<video>/static-assets/video/irvine-mr-marriott-5.mp4</video>
+	</item></markers>
+	<createdDate>2018-04-03T01:45:55.367Z</createdDate>
+	<createdDate_dt>2018-04-03T01:45:55.367Z</createdDate_dt>
+	<lastModifiedDate>2018-04-03T01:45:55.367Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T01:45:55.367Z</lastModifiedDate_dt>
+</page>
