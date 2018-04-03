@@ -12,9 +12,9 @@
 	<debugMarkers_b>false</debugMarkers_b>
 	<splashLogo>/static-assets/assets/splash/redbull.png</splashLogo>
 	<markers>	<item>	<patternImage>/static-assets/data/nft/redbull-can/redbull-can.jpg</patternImage>
-	<xScale>0.5</xScale>
-	<yScale>0.5</yScale>
-	<xPosition>0</xPosition>
+	<xScale>0.25</xScale>
+	<yScale>0.25</yScale>
+	<xPosition>10</xPosition>
 	<yPosition>0</yPosition>
 	<videoWidth>640</videoWidth>
 	<videoHeight>360</videoHeight>
@@ -22,6 +22,6 @@
 	</item></markers>
 	<createdDate>2018-04-03T16:55:42.526Z</createdDate>
 	<createdDate_dt>2018-04-03T16:55:42.526Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T18:20:43.586Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T18:20:43.586Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T18:21:25.776Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T18:21:25.776Z</lastModifiedDate_dt>
 </page>
