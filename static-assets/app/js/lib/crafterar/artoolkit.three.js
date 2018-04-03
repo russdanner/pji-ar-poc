@@ -115,7 +115,7 @@ video.width =w
 
         var material = new THREE.MeshBasicMaterial( { map: videoTex, side:THREE.BackSide});  
         var plane = new THREE.Mesh( geometry, material );
-		//plane.geometry.scale(2, 2, 2)
+		geometry.scale(2, 2, 2)
 
             //plane.position = plane.position.set(-.5, -.5, 0) 
 

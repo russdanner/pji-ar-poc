@@ -11,7 +11,7 @@
 	<internal-name>Papa John's Standard Box</internal-name>
 	<splashText>Tap to get started</splashText>
 	<splashLogo>/static-assets/assets/splash/logo-large.png</splashLogo>
-	<markers>	<item>	<patternImage>/static-assets/data/nft/pji-standard-box.png</patternImage>
+	<markers>	<item>	<patternImage>/static-assets/data/nft/standard-box/standard-box.png</patternImage>
 	<video>/static-assets/video/better-ingredients-better-pizza.mp4</video>
 	</item></markers>
 	<createdDate>2018-04-02T22:55:25.764Z</createdDate>
