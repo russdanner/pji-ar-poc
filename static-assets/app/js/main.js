@@ -60,7 +60,7 @@
                 /* ============= */
                 var crafterARMarker = crafterAR.markers[0]
                 crafterARMarker.patternBase = crafterARMarker.pattern.substring(0, crafterARMarker.pattern.indexOf(".")-1)
-                alert(patternBase)
+                alert(crafterARMarker.patternBase)
                 
                  myVideo.videoEl = document.getElementById("video0")
                  myVideo.videoEl.muted = true
