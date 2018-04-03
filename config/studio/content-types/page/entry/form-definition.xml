@@ -275,9 +275,9 @@
 					<type>input</type>
 					<id>xScale</id>
 					<iceId></iceId>
-					<title>xScale</title>
+					<title>X Scale</title>
 					<description></description>
-					<defaultValue>1</defaultValue>
+					<defaultValue>2</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -318,9 +318,9 @@
 					<type>input</type>
 					<id>yScale</id>
 					<iceId></iceId>
-					<title>yScale</title>
+					<title>Y Scale</title>
 					<description></description>
-					<defaultValue>1</defaultValue>
+					<defaultValue>2</defaultValue>
 					<help></help>
 					<properties>
 						<property>
