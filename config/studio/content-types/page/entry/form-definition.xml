@@ -18,7 +18,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Page Settings</title>
+			<title>AR Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -54,7 +54,7 @@
 					<type>input</type>
 					<id>internal-name</id>
 					<iceId></iceId>
-					<title>File Title</title>
+					<title>Experience Title</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -165,7 +165,7 @@
 					<iceId></iceId>
 					<title>Splash Text</title>
 					<description></description>
-					<defaultValue>Tap to get started</defaultValue>
+					<defaultValue>Tap to start</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -199,29 +199,6 @@
 							<name>pattern</name>
 							<value><![CDATA[]]></value>
 							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>checkbox</type>
-					<id>debugMarkers_b</id>
-					<iceId></iceId>
-					<title>Debug Markers</title>
-					<description></description>
-					<defaultValue>false</defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -289,8 +266,94 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>xScale</id>
+					<iceId></iceId>
+					<title>xScale</title>
+					<description></description>
+					<defaultValue>1</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>2</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>2</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>yScale</id>
+					<iceId></iceId>
+					<title>yScale</title>
+					<description></description>
+					<defaultValue>1</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>2</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>2</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -322,7 +385,116 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>input</type>
+					<id>videoWidth</id>
+					<iceId></iceId>
+					<title>Video Width</title>
+					<description></description>
+					<defaultValue>640</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>4</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>4</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>videoHeight</id>
+					<iceId></iceId>
+					<title>Video Height</title>
+					<description></description>
+					<defaultValue>360</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>4</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>4</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
 					</fields>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>debugMarkers_b</id>
+					<iceId></iceId>
+					<title>Debug Markers</title>
+					<description></description>
+					<defaultValue>false</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
 				</field>
 			</fields>
 		</section>
