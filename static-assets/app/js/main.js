@@ -58,9 +58,8 @@
                 /* ============= */
                 // Video
                 /* ============= */
-                var crafterARMarker = crafterAR.markers[0]
-                crafterARMarker.patternBase = crafterARMarker.pattern.substring(0, crafterARMarker.pattern.indexOf(".")-1)
-                alert(crafterARMarker.patternBase)
+                var crafterARMarker = crafterAR.markers[0];
+                crafterARMarker.patternBase = crafterARMarker.pattern.substring(0, crafterARMarker.pattern.indexOf("."));
                 
                  myVideo.videoEl = document.getElementById("video0")
                  myVideo.videoEl.muted = true
@@ -115,7 +114,7 @@
                 	// dont do anything when user taps scene
                 }, false);
 
-                arController.loadNFTMarker('/static-assets/data/nft/great-lakes/great-lakes', function (id) {
+                arController.loadNFTMarker(crafterARMarker.patternBase, function (id) {
                     var marker = arController.createThreeNFTMarker(id);
                     myMarker = marker;
                     marker.add(myGroup);
