@@ -16,12 +16,12 @@
 	<yScale>2</yScale>
 	<xPosition>80</xPosition>
 	<yPosition>80</yPosition>
-	<videoWidth>640</videoWidth>
-	<videoHeight>360</videoHeight>
+	<videoWidth>1360</videoWidth>
+	<videoHeight>1686</videoHeight>
 	<video>/static-assets/video/irvine-mr-marriott-5.mp4</video>
 	</item></markers>
 	<createdDate>2018-04-03T01:45:55.367Z</createdDate>
 	<createdDate_dt>2018-04-03T01:45:55.367Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T01:45:55.367Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T01:45:55.367Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T02:07:38.398Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T02:07:38.398Z</lastModifiedDate_dt>
 </page>
