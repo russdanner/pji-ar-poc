@@ -16,7 +16,7 @@
                          videoHeight: ${contentModel.markers.item[0].videoHeight},
                          xScale: ${contentModel.markers.item[0].xScale},
                          yScale: ${contentModel.markers.item[0].yScale},
-                         xPosition: ${contentModel.markers.item[0].xSPosition},
+                         xPosition: ${contentModel.markers.item[0].xPosition},
                          yPosition: ${contentModel.markers.item[0].yPosition}                         
                       }]
         }
