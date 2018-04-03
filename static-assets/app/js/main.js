@@ -69,15 +69,15 @@
 
 				var group = new THREE.Group
                 
-                var geometry = new THREE.PlaneGeometry(3, 2, 1);
+                var geometry = new THREE.PlaneGeometry(crafterARMarker.xScale, crafterARMarker.yScale, 1);
                 if(adjustPortrait==true) {
                 	geometry = new THREE.PlaneGeometry(2.2, 1.5, 1);
 				}
                 
                 var image = document.createElement( 'canvas' );
                 
-               	var imageW = 640
-                var imageH = 360
+               	var imageW = crafterARMarker.videoWidth;
+                var imageH = crafterARMarker.videoHeight;
                 
                 image.width = imageW;
                 image.height = imageH;
