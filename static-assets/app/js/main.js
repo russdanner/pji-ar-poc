@@ -58,7 +58,7 @@
                 /* ============= */
                 // Video
                 /* ============= */
-                var crafterArMarker = crafterAR.markers[0]
+                var crafterARMarker = crafterAR.markers[0]
                 crafterARMarker.patternBase = crafterARMarker.pattern.substring(0, crafterARMarker.pattern.indexOf(".")-1)
                 alert(patternBase)
                 
