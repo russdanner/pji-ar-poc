@@ -14,8 +14,10 @@
         	markers: [{  pattern:"${contentModel.markers.item[0].patternImage}",
                          videoWidth: ${contentModel.markers.item[0].videoWidth},
                          videoHeight: ${contentModel.markers.item[0].videoHeight},
-                         xScale:     ${contentModel.markers.item[0].xScale},
-                         yScale:     ${contentModel.markers.item[0].yScale}
+                         xScale: ${contentModel.markers.item[0].xScale},
+                         yScale: ${contentModel.markers.item[0].yScale},
+                         xPosition: ${contentModel.markers.item[0].xSPosition},
+                         yPosition: ${contentModel.markers.item[0].yPosition}                         
                       }]
         }
       </script>
