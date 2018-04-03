@@ -13,13 +13,13 @@
 	<splashLogo>/static-assets/assets/splash/jimis-thing-logo-rev2.jpg</splashLogo>
 	<markers>	<item>	<patternImage>/static-assets/data/nft/great-lakes/great-lakes.jpg</patternImage>
 	<video>/static-assets/video/sample_720x480_1mb.mp4</video>
-	<xScale>2</xScale>
+	<xScale>3</xScale>
 	<yScale>2</yScale>
 	<videoWidth>640</videoWidth>
 	<videoHeight>360</videoHeight>
 	</item></markers>
 	<createdDate>2018-04-02T22:58:33.631Z</createdDate>
 	<createdDate_dt>2018-04-02T22:58:33.631Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T00:29:27.985Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T00:29:27.985Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T01:01:31.814Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T01:01:31.814Z</lastModifiedDate_dt>
 </page>
