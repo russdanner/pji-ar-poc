@@ -58,8 +58,8 @@
                 /* ============= */
                 // Video
                 /* ============= */
-                var crafterArMarker = crafterAr.markers[0]
-                crafterArMarker.patternBase = crafterArMarker.pattern.substring(0,crafterArMarker.pattern.indexOf(".")-1)
+                var crafterArMarker = crafterAR.markers[0]
+                crafterARMarker.patternBase = crafterARMarker.pattern.substring(0, crafterARMarker.pattern.indexOf(".")-1)
                 alert(patternBase)
                 
                  myVideo.videoEl = document.getElementById("video0")
