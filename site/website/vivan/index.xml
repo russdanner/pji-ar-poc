@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<display-template>/templates/web/entry.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0458</objectGroupId>
+	<objectId>0458d07c-6910-de07-34e9-c6b84e705081</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>vivan</folder-name>
+	<internal-name>Vivan Photo</internal-name>
+	<splashText>Tap to start</splashText>
+	<disabled>false</disabled>
+	<debugMarkers_b>false</debugMarkers_b>
+	<splashLogo>/static-assets/assets/splash/crafter-logo-transparent.png</splashLogo>
+	<markers>	<item>	<patternImage>/static-assets/data/nft/vivan/vivan.jpg</patternImage>
+	<xScale>2</xScale>
+	<yScale>2</yScale>
+	<xPosition>80</xPosition>
+	<yPosition>80</yPosition>
+	<videoWidth>640</videoWidth>
+	<videoHeight>360</videoHeight>
+	<video>/static-assets/video/sample_720x480_1mb.mp4</video>
+	</item></markers>
+	<createdDate>2018-04-03T13:18:28.946Z</createdDate>
+	<createdDate_dt>2018-04-03T13:18:28.946Z</createdDate_dt>
+	<lastModifiedDate>2018-04-03T13:18:28.946Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T13:18:28.946Z</lastModifiedDate_dt>
+</page>
