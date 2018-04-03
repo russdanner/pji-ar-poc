@@ -13,15 +13,15 @@
 	<splashLogo>/static-assets/assets/splash/marriott-irvine.png</splashLogo>
 	<markers>	<item>	<patternImage>/static-assets/data/nft/mr-marriott-portrait/mr-marriott-portrait.jpg</patternImage>
 	<xScale>1.25</xScale>
-	<yScale>1.6</yScale>
-	<xPosition>60</xPosition>
-	<yPosition>80</yPosition>
+	<yScale>1.7</yScale>
+	<xPosition>50</xPosition>
+	<yPosition>70</yPosition>
 	<videoWidth>1360</videoWidth>
 	<videoHeight>1686</videoHeight>
 	<video>/static-assets/video/irvine-mr-marriott-5.mp4</video>
 	</item></markers>
 	<createdDate>2018-04-03T01:45:55.367Z</createdDate>
 	<createdDate_dt>2018-04-03T01:45:55.367Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T02:14:27.002Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T02:14:27.002Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T02:14:59.978Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T02:14:59.978Z</lastModifiedDate_dt>
 </page>
