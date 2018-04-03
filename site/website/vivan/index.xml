@@ -14,7 +14,7 @@
 	<markers>	<item>	<patternImage>/static-assets/data/nft/vivan/vivan.jpg</patternImage>
 	<xScale>2</xScale>
 	<yScale>2</yScale>
-	<xPosition>100</xPosition>
+	<xPosition>130</xPosition>
 	<yPosition>220</yPosition>
 	<videoWidth>640</videoWidth>
 	<videoHeight>360</videoHeight>
@@ -22,6 +22,6 @@
 	</item></markers>
 	<createdDate>2018-04-03T13:18:28.946Z</createdDate>
 	<createdDate_dt>2018-04-03T13:18:28.946Z</createdDate_dt>
-	<lastModifiedDate>2018-04-03T13:22:50.017Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-03T13:22:50.017Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T13:23:14.777Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T13:23:14.777Z</lastModifiedDate_dt>
 </page>
