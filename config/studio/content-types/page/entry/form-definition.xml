@@ -277,17 +277,17 @@
 					<iceId></iceId>
 					<title>X Scale</title>
 					<description></description>
-					<defaultValue>4</defaultValue>
+					<defaultValue>2</defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>size</name>
-							<value>2</value>
+							<value>4</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>2</value>
+							<value>4</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -320,17 +320,17 @@
 					<iceId></iceId>
 					<title>Y Scale</title>
 					<description></description>
-					<defaultValue>4</defaultValue>
+					<defaultValue>2</defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>size</name>
-							<value>2</value>
+							<value>4</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>2</value>
+							<value>4</value>
 							<type>int</type>
 						</property>
 						<property>
