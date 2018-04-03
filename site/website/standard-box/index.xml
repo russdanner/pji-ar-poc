@@ -13,9 +13,15 @@
 	<splashLogo>/static-assets/assets/splash/logo-large.png</splashLogo>
 	<markers>	<item>	<patternImage>/static-assets/data/nft/standard-box/standard-box.png</patternImage>
 	<video>/static-assets/video/better-ingredients-better-pizza.mp4</video>
+	<xScale>2</xScale>
+	<yScale>2</yScale>
+	<xPosition>80</xPosition>
+	<yPosition>80</yPosition>
+	<videoWidth>640</videoWidth>
+	<videoHeight>360</videoHeight>
 	</item></markers>
 	<createdDate>2018-04-02T22:55:25.764Z</createdDate>
 	<createdDate_dt>2018-04-02T22:55:25.764Z</createdDate_dt>
-	<lastModifiedDate>2018-04-02T22:55:25.764Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-02T22:55:25.764Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-03T01:13:52.859Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T01:13:52.859Z</lastModifiedDate_dt>
 </page>
