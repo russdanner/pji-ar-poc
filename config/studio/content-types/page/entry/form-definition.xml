@@ -277,7 +277,7 @@
 					<iceId></iceId>
 					<title>X Scale</title>
 					<description></description>
-					<defaultValue>2</defaultValue>
+					<defaultValue>4</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -320,7 +320,7 @@
 					<iceId></iceId>
 					<title>Y Scale</title>
 					<description></description>
-					<defaultValue>2</defaultValue>
+					<defaultValue>4</defaultValue>
 					<help></help>
 					<properties>
 						<property>
