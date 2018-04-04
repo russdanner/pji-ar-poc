@@ -42,16 +42,16 @@
                 });
 
 				var adjustPortrait = false;
-				//if(/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
-				if(/iPhone/i.test(navigator.userAgent)) {
+				if(/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
+				//if(/iPhone/i.test(navigator.userAgent)) {
                 	if(arController.orientation=="portrait") {
                   		adjustPortrait = true;
                     }
 				}
 				
                 myRenderer = renderer
-                var w = window.innerWidth-10;
-                var h = window.innerHeight-10;
+                var w = window.innerWidth-1;
+                var h = window.innerHeight-1;
                 renderer.setSize(w, h);
                 document.body.appendChild(renderer.domElement);
 
@@ -71,7 +71,7 @@
                 
                 var geometry = new THREE.PlaneGeometry(crafterARMarker.xScale, crafterARMarker.yScale, 1);
                 if(adjustPortrait==true) {
-                	geometry = new THREE.PlaneGeometry(2.2, 1.5, 1);
+                	geometry = new THREE.PlaneGeometry(crafterARMarker.xScale+.7, crafterARMarker.yScale-.2, 1);
 				}
                 
                 var image = document.createElement( 'canvas' );
@@ -102,7 +102,7 @@
 
                 if(adjustPortrait==true) {
                 	group.position.x = crafterARMarker.xPosition+40;
-                    group.position.y = crafterARMarker.xPosition+20;
+                    group.position.y = crafterARMarker.yPosition+30;
                     group.scale.set(100,100,100);
 				}
                 
